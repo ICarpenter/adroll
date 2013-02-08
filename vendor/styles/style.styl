@@ -1,0 +1,72 @@
+
+
+a
+ul
+li
+p
+span
+h1
+h2
+h3
+h4
+	-webkit-font-smoothing subpixel-antialiased
+	margin 0
+	padding 0
+
+a 
+	text-decoration none
+	color #000
+
+ul
+	overflow hidden
+	text-align center
+	li
+		width 130px
+		padding 0
+		margin 0
+		display inline-block
+		list-style none
+		a
+			transition all .1s
+			-moz-transition all .1s /* Firefox 4 */
+			-webkit-transition all .1s /* Safari and Chrome */
+			-o-transition all .1s /* Opera */
+
+#gallery-view
+	width 840px
+	margin 0 auto
+
+	.shot
+		width 200px
+		height 200px
+		margin 5px
+		float left
+		border-radius 5px
+		box-shadow 0 0 3px rgba(0,0,0,0.3)
+		overflow hidden
+		position relative
+
+		.image
+			width 200px
+			height 200px
+			display block
+			background-size cover
+			background-position center
+
+		.tip
+			width 200px
+			height auto
+			display none
+			background rgba(0,0,0,0.8)
+			text-align center
+			border-radius 0 0 5px 5px
+			position absolute
+			bottom 0px
+			left 0px
+			p
+				color rgba(255,255,255,1)
+				text-shadow 0 0 1px rgba(0,0,0,0.3)
+				font-family "Courier"
+				text-transform uppercase
+
+
